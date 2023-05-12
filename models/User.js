@@ -7,5 +7,6 @@ const User = db.define("users", {
     password: DataTypes.STRING
 });
 
+user.get('/users')
 //exports
 module.exports = User;
